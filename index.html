@@ -17,8 +17,7 @@
    <nav id="navbar">
       <h1 class="logo">
          <span class="text-primary">
-            <i class="fas fa-book-open"></i> Edge 
-         </span>Ledger
+            <i class="fas fa-book-open"></i> Edge</span>Ledger
       </h1>
       <ul>
          <li><a href="#home">Home</a></li>
@@ -104,5 +103,54 @@
          </div>
       </div>
    </section>
+
+   <!-- Section: Contact -->
+   <section id="contact">
+      <div class="contact-form bg-primary p-2">
+         <h2 class="m-heading">Contact Us</h2>
+         <p>Please use the form below to contact us</p>
+         <form action="#">
+            <div class="form-group">
+               <label for="name">Name</label>
+               <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+               <label for="email">Email</label>
+               <input type="email" Email="Email" id="Email" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+               <label for="phone">Phone</label>
+               <input type="text" phone="phone" id="phone" placeholder="Enter your Phone">
+            </div>
+            <div class="form-group">
+               <label for="message">Message</label>
+               <textarea message="message" id="message" placeholder="Enter your Message"></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn btn-dark mt-1">
+         </form>
+      </div>
+      <div class="map p-2"></div>
+   </section>
+
+   <!-- Footer -->
+   <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+         <p>Copyright &copy 2019, EdgeLedger, All Rigths Reserved</p>
+      </div>
+   </footer>
+
+<!-- Jquery CDN -->
+<script
+src="https://code.jquery.com/jquery-3.4.0.min.js"
+integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+crossorigin="anonymous"></script>
+
+<!-- Local Js File -->
+<script src="js/main.js"></script>
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzB2FzIEK2FByLSmoxpTosGb8BUJ1t5eo&callback=initMap"
+async defer></script>
 </body>
 </html>
+
